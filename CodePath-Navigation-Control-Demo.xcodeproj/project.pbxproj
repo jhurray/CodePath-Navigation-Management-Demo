@@ -15,7 +15,7 @@
 		790C0F1A1E429A3C00B659D8 /* LoggedInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 790C0F181E429A3C00B659D8 /* LoggedInViewController.xib */; };
 		790C0F1E1E429A4D00B659D8 /* LoggedOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790C0F1C1E429A4D00B659D8 /* LoggedOutViewController.m */; };
 		790C0F1F1E429A4D00B659D8 /* LoggedOutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 790C0F1D1E429A4D00B659D8 /* LoggedOutViewController.xib */; };
-		790C0F221E429D6900B659D8 /* NavigationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 790C0F211E429D6900B659D8 /* NavigationManager.m */; };
+		790C0F251E42BA3F00B659D8 /* NavigationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 790C0F241E42BA3F00B659D8 /* NavigationManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +32,8 @@
 		790C0F1B1E429A4D00B659D8 /* LoggedOutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoggedOutViewController.h; path = ../LoggedOutViewController.h; sourceTree = "<group>"; };
 		790C0F1C1E429A4D00B659D8 /* LoggedOutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoggedOutViewController.m; path = ../LoggedOutViewController.m; sourceTree = "<group>"; };
 		790C0F1D1E429A4D00B659D8 /* LoggedOutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoggedOutViewController.xib; path = ../LoggedOutViewController.xib; sourceTree = "<group>"; };
-		790C0F201E429D6900B659D8 /* NavigationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationManager.h; sourceTree = "<group>"; };
-		790C0F211E429D6900B659D8 /* NavigationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationManager.m; sourceTree = "<group>"; };
+		790C0F231E42BA3F00B659D8 /* NavigationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationManager.h; sourceTree = "<group>"; };
+		790C0F241E42BA3F00B659D8 /* NavigationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +66,8 @@
 		790C0EFB1E4299E500B659D8 /* CodePath-Navigation-Control-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				790C0F231E42BA3F00B659D8 /* NavigationManager.h */,
+				790C0F241E42BA3F00B659D8 /* NavigationManager.m */,
 				790C0F1B1E429A4D00B659D8 /* LoggedOutViewController.h */,
 				790C0F1C1E429A4D00B659D8 /* LoggedOutViewController.m */,
 				790C0F1D1E429A4D00B659D8 /* LoggedOutViewController.xib */,
@@ -78,8 +80,6 @@
 				790C0F0A1E4299E500B659D8 /* LaunchScreen.storyboard */,
 				790C0F0D1E4299E500B659D8 /* Info.plist */,
 				790C0EFC1E4299E500B659D8 /* Supporting Files */,
-				790C0F201E429D6900B659D8 /* NavigationManager.h */,
-				790C0F211E429D6900B659D8 /* NavigationManager.m */,
 			);
 			path = "CodePath-Navigation-Control-Demo";
 			sourceTree = "<group>";
@@ -167,7 +167,7 @@
 				790C0F011E4299E500B659D8 /* AppDelegate.m in Sources */,
 				790C0F1E1E429A4D00B659D8 /* LoggedOutViewController.m in Sources */,
 				790C0EFE1E4299E500B659D8 /* main.m in Sources */,
-				790C0F221E429D6900B659D8 /* NavigationManager.m in Sources */,
+				790C0F251E42BA3F00B659D8 /* NavigationManager.m in Sources */,
 				790C0F191E429A3C00B659D8 /* LoggedInViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,6 +317,7 @@
 				790C0F121E4299E500B659D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
